@@ -6,19 +6,28 @@
     <a href="https://puter.com/"><strong>« LIVE DEMO »</strong></a>
     <br />
     <br />
-    <a href="https://puter.com">Puter.com</a>
-    ·
-    <a href="https://docs.puter.com" target="_blank">SDK</a>
-    ·
-    <a href="https://discord.com/invite/PQcx7Teh8u">Discord</a>
-    ·
-    <a href="https://reddit.com/r/puter">Reddit</a>
-    ·
-    <a href="https://twitter.com/HeyPuter">X (Twitter)</a>
+    <a href="https://github.com/HeyPuter/terminal">Original</a>
+
 </p>
 
 <h3 align="center"><img width="700" style="border-radius:5px;" alt="screenshot" src="https://assets.puter.site/puter.com-screenshot-2.webp"></h3>
 
+<br/>
+
+## Rethinking the interface
+<h2>What is done</h2>
+- Nothing yet, wait for updates;
+<br/>
+
+<h2>What's planned</h2>
+- Move all colors to a separate css file, to dynamically load colors and custom themes;
+- Fix the graphic part of the default theme;
+- Add a dark theme;
+- Add a switch theme and save the state in localstorage;
+- Add a default wallpaper package;
+- If possible, make a design system;
+- Develop a design system in Figma for prototyping applications;
+- Implement a theme change while minimally interfering with the system
 <br/>
 
 ## Puter
