@@ -1,0 +1,24 @@
+.dark-theme{
+    --neutral-1:#ffffff;
+    --neutral-2:#ffffff;
+    --neutral-3:#ffffff;
+    --neutral-4:#ffffff;
+    --neutral-5:#ffffff;
+    --neutral-6:#ffffff;
+    --neutral-7:#ffffff;
+    --neutral-8:#ffffff;
+    --neutral-9:#ffffff;
+    --neutral-10:#ffffff;
+    --neutral-11:#ffffff;
+    --neutral-12:#ffffff;
+    --neutral-13:#ffffff;
+
+    --accent-color-1: #5178ed;
+    --accent-color-2: #5178ed;
+    --accent-color-3: #5178ed;
+    --accent-color-4: #5178ed;
+    --accent-color-5: #5178ed;
+    --accent-color-6: #5178ed;
+    --accent-color-7: #5178ed;
+    --accent-color-8: #5178ed;
+}

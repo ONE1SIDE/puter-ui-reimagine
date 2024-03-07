@@ -731,9 +731,9 @@ span.header-sort-icon img {
     background: transparent;
     padding: 0;
     border: 1px solid #9a9a9a;
-    box-shadow: 0px 0px 15px #00000066;
+    box-shadow: 0px 0px 90px -15px rgb(0 0 0 / 19%), 0px 0px 16px 0px rgb(0 0 0 / 12%);
     overflow: hidden;
-    border-radius: 4px;
+    border-radius: 9px;
     border: none;
     transition: opacity .2s;
     user-select: none !important;
@@ -860,11 +860,12 @@ span.header-sort-icon img {
 
 .window-navbar {
     overflow: hidden;
-    border-bottom: 1px solid #e3e3e3;
+    border-bottom: 1px solid var(--neutral-2);
     padding: 5px 0 5px 1px;
-    background-color: #fafafa;
+    background-color: var(--neutral-1-64);
     height: 48px;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .window-navbar-btn {
@@ -890,14 +891,14 @@ span.header-sort-icon img {
     line-height: 35px;
     padding-left: 10px;
     font-size: 14px;
-    color: #41484c;
+    color: #434343;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
     -webkit-font-smoothing: antialiased;
-    border: 1px solid #e3e3e3;
+    border: 1px solid var(--neutral-1-64);
     border-radius: 3px;
-    background: #f1f3f4;
+    background: var(--neutral-1-64);
     box-sizing: border-box;
 
     user-select: none !important;
@@ -912,10 +913,10 @@ span.header-sort-icon img {
 }
 
 .window-navbar-layout-settings {
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
-    margin-top: 3px;
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
+    margin-top: 6px;
 }
 
 .device-phone .window-navbar-layout-settings {
@@ -1000,14 +1001,13 @@ span.header-sort-icon img {
 
 .window-sidebar {
     min-width: 170px;
-    height: calc(100% - 28px);
+    height: calc(100% - 107px);
     float: left;
-    border-right: 1px solid #CCC;
+    border-right: 1px solid var(--neutral-2);
     padding: 15px 10px;
     box-sizing: border-box;
-    background-color: rgba(231, 238, 245, .95);
+    background-color: var(--neutral-1);
     overflow-y: scroll;
-    margin-top: 1px;
 }
 
 .window-sidebar .ui-resizable-e {
@@ -2106,8 +2106,8 @@ label {
 
 @supports ((backdrop-filter: blur())) {
     .taskbar {
-        background-color: #ffffff94;
-        backdrop-filter: blur(10px);
+        background-color: var(--neutral-1-64);
+        backdrop-filter: blur(60px) saturate(1.5);
     }
 
     .taskbar .taskbar-icon img {
@@ -2626,32 +2626,31 @@ label {
 
 @supports ((backdrop-filter: blur())) {
     .window-head {
-        background-color: rgba(231, 238, 245, .80);
-        backdrop-filter: blur(10px);
+        background-color:var(--neutral-1-64);
+        backdrop-filter: blur(60px) saturate(1.5);
     }
 
     .device-phone .window-head {
-        background-color: rgba(231, 238, 245);
-        backdrop-filter: blur(10px);
-    }
-
-    .window-sidebar {
-        background-color: rgb(231 238 245 / 91%);
-        backdrop-filter: blur(10px);
+        background-color:var(--neutral-1-64);
+        backdrop-filter: blur(60px) saturate(1.5);
     }
 
     .window-snap-placeholder {
-        backdrop-filter: blur(5px);
+        backdrop-filter: blur(60px) saturate(1.5);
     }
 
     .context-menu {
-        background-color: rgb(255 255 255 / 92%);
-        backdrop-filter: blur(3px);
+        background-color:var(--neutral-1-64);
+        backdrop-filter: blur(60px) saturate(1.5);
     }
 
     .popover:not(.device-phone .popover) {
-        background-color: rgb(238, 243, 248);
-        backdrop-filter: blur(10px);
+        background-color:var(--neutral-1-64);
+        backdrop-filter: blur(60px) saturate(1.5);
+    }
+    .window-navbar{
+        background-color:var(--neutral-1-64);
+        backdrop-filter: blur(60px) saturate(1.5); 
     }
 }
 
