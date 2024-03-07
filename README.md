@@ -15,20 +15,20 @@
 <br/>
 
 ## Rethinking the interface
-<h2>What is done</h2>
+What is done<br/>
 - Nothing yet, wait for updates;
 <br/>
-
-<h2>What's planned</h2>
-- Move all colors to a separate css file, to dynamically load colors and custom themes;
-- Fix the graphic part of the default theme;
-- Add a dark theme;
-- Add a switch theme and save the state in localstorage;
-- Add a default wallpaper package;
-- If possible, make a design system;
-- Develop a design system in Figma for prototyping applications;
-- Implement a theme change while minimally interfering with the system
 <br/>
+What's planned<br/>
+- Move all colors to a separate css file, to dynamically load colors and custom themes;<br/>
+- Fix the graphic part of the default theme;<br/>
+- Add a dark theme;<br/>
+- Add a switch theme and save the state in localstorage;<br/>
+- Add a default wallpaper package;<br/>
+- If possible, make a design system;<br/>
+- Develop a design system in Figma for prototyping applications;<br/>
+- Implement a theme change while minimally interfering with the system<br/>
+<br/><br/>
 
 ## Puter
 
