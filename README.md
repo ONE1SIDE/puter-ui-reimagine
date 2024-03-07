@@ -15,19 +15,21 @@
 <br/>
 
 ## Rethinking the interface
-What is done<br/>
-- Nothing yet, wait for updates;
-<br/>
-<br/>
-What's planned<br/>
-- Move all colors to a separate css file, to dynamically load colors and custom themes;<br/>
-- Fix the graphic part of the default theme;<br/>
-- Add a dark theme;<br/>
-- Add a switch theme and save the state in localstorage;<br/>
-- Add a default wallpaper package;<br/>
-- If possible, make a design system;<br/>
-- Develop a design system in Figma for prototyping applications;<br/>
-- Implement a theme change while minimally interfering with the system<br/>
+What is done
+- Nothing yet, wait for updates
+- Nothing yet, wait for updates
+  
+What's planned
+- Move all colors to a separate css file, to dynamically load colors and custom themes
+- Fix the graphic part of the default theme
+- Add a dark theme
+- Add a switch theme and save the state in localstorage
+- Add a default wallpaper package
+- If possible, make a design system
+- Develop a design system in Figma for prototyping applications
+- Implement a theme change while minimally interfering with the system
+- Update system icons
+
 <br/><br/>
 
 ## Puter
