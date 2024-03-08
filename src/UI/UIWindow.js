@@ -240,20 +240,20 @@ async function UIWindow(options) {
         // Navbar
         if(options.is_dir){
             h += `<div class="window-navbar">`;
-                h += `<div style="float:left; margin-left:5px; margin-right:5px;">`;
+                h += `<div class="navbar-nav">`;
                     // Back
-                    h += `<img draggable="false" class="window-navbar-btn window-navbar-btn-back window-navbar-btn-disabled" src="${html_encode(window.icons['arrow-left.svg'])}" title="Click to go back.">`;
+                    h += `<div class="navbar-icon window-navbar-btn window-navbar-btn-back window-navbar-btn-disabled"><img draggable="false" src="${html_encode(window.icons['arrow-left.svg'])}" title="Click to go back."></div>`;
                     // Forward
-                    h += `<img draggable="false" class="window-navbar-btn window-navbar-btn-forward window-navbar-btn-disabled" src="${html_encode(window.icons['arrow-right.svg'])}" title="Click to go forward.">`;
+                    h += `<div class="navbar-icon window-navbar-btn window-navbar-btn-forward window-navbar-btn-disabled"><img draggable="false" src="${html_encode(window.icons['arrow-right.svg'])}" title="Click to go forward."></div>`;
                     // Up
-                    h += `<img draggable="false" class="window-navbar-btn window-navbar-btn-up ${options.path === '/' ? 'window-navbar-btn-disabled' : ''}" src="${html_encode(window.icons['arrow-up.svg'])}" title="Click to go one directory up.">`;
+                    h += `<div class="navbar-icon window-navbar-btn window-navbar-btn-up ${options.path === '/' ? 'window-navbar-btn-disabled' : ''}"><img draggable="false" src="${html_encode(window.icons['arrow-up.svg'])}" title="Click to go one directory up."></div>`;
                 h += `</div>`;
                 // Path
                 h += `<div class="window-navbar-path">${navbar_path(options.path, window.user.username)}</div>`;
                 // Path editor
                 h += `<input class="window-navbar-path-input" data-path="${html_encode(options.path)}" value="${html_encode(options.path)}" spellcheck="false"/>`;
                 // Layout settings
-                h += `<img class="window-navbar-layout-settings" src="${html_encode(options.layout === 'icons' ? window.icons['layout-icons.svg'] : window.icons['layout-list.svg'])}" draggable="false">`;
+                h += `<div class="window-navbar-layout-settings"><img class="window-navbar-layout-settings-icon" src="${html_encode(options.layout === 'icons' ? window.icons['layout-icons.svg'] : window.icons['layout-list.svg'])}" draggable="false"></div>`;
             h += `</div>`;
         }
 
@@ -2974,21 +2974,21 @@ window.update_window_layout = function(el_window, layout){
         $(el_window).find('.explore-table-headers').hide();
         $(el_window).find('.item-container').removeClass('item-container-list');
         $(el_window).find('.item-container').removeClass('item-container-details');
-        $(el_window).find('.window-navbar-layout-settings').attr('src', window.icons['layout-icons.svg']);
+        $(el_window).find('.window-navbar-layout-settings-icon').attr('src', window.icons['layout-icons.svg']);
         $(el_window).attr('data-layout', layout)
     }
     else if(layout === 'list'){
         $(el_window).find('.explore-table-headers').hide();
         $(el_window).find('.item-container').removeClass('item-container-details');
         $(el_window).find('.item-container').addClass('item-container-list');
-        $(el_window).find('.window-navbar-layout-settings').attr('src', window.icons['layout-list.svg'])
+        $(el_window).find('.window-navbar-layout-settings-icon').attr('src', window.icons['layout-list.svg'])
         $(el_window).attr('data-layout', layout)
     }
     else if(layout === 'details'){
         $(el_window).find('.explore-table-headers').show();
         $(el_window).find('.item-container').removeClass('item-container-list');
         $(el_window).find('.item-container').addClass('item-container-details');
-        $(el_window).find('.window-navbar-layout-settings').attr('src', window.icons['layout-details.svg'])
+        $(el_window).find('.window-navbar-layout-settings-icon').attr('src', window.icons['layout-details.svg'])
         $(el_window).attr('data-layout', layout)
     }
 }

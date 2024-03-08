@@ -1,7 +1,7 @@
 /*.light-theme*/
 :root{
     --neutral-1:#ffffff;
-    --neutral-1-64:rgb(255 255 255 / 64%);
+    --neutral-1-80:rgb(255 255 255 / 80%);
     --neutral-2:#e3e3e3;
     --neutral-3:#ffffff;
     --neutral-4:#ffffff;
@@ -15,8 +15,8 @@
     --neutral-12:#ffffff;
     --neutral-13:#ffffff;
 
-    --accent-color-1: #5178ed;
-    --accent-color-2: #5178ed;
+    --accent-color-1: #0164f9;
+    --accent-color-2: #018BF9;
     --accent-color-3: #5178ed;
     --accent-color-4: #5178ed;
     --accent-color-5: #5178ed;

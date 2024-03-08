@@ -39,6 +39,7 @@ const css_paths = [
     '/css/normalize.css',
     '/lib/jquery-ui-1.13.2/jquery-ui.min.css',
     '/css/style.css',
+    // Custem theme css
     '/css/theme/light.css',
     '/css/theme/dark.css',
 ]

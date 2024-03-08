@@ -229,7 +229,19 @@ function generateDevHtml(options){
         h += `<meta name="facebook-domain-verification" content="e29w3hjbnnnypf4kzk2cewcdaxym1y" />`;
         // canonical url
         h += `<link rel="canonical" href="${options.origin}">`;
+        // Font icons (material design)
+        h += `<link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+        rel="stylesheet">`;
+        h += `<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+        rel="stylesheet">`;
+        h += `<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"
+        rel="stylesheet">`;
+        h += `<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp"
+        rel="stylesheet">`;
+        h += `<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone"
+        rel="stylesheet">`;
 
+        
         // DEV: load every CSS file individually
         if(options.env === 'dev'){
             for(let i = 0; i < css_paths.length; i++){
